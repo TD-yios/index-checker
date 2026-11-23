@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# ---- Local build / runtime ----
+.tmp/
+build/
+dist/
+vendor/
+outputs/
+*.log
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Release archives ----
+*.zip
+
+# ---- Internal workspace notes ----
+/审计验收清单.md
+
+# ---- Obsolete screenshots / internal probe images ----
+/docs/谷歌_订阅节点实测.png
+/docs/客户端_查询结果.png
+/docs/客户端_查询设置_v3.png
+/docs/客户端_关键词库_v3.png
+/docs/客户端_关于入口.png
+/docs/关于_v3.png
+/docs/v3_*.png
+/docs/品牌管理_v3.png
+/docs/界面*.png
+/docs/关键词库_*.png
+/docs/收录查询工作台_界面原型.*
+/docs/app_icon_*.png
+/docs/font_test*.png
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
